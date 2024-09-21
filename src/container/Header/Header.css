@@ -1,0 +1,55 @@
+.app__header {
+  background-color: var(--color-black);
+}
+
+.app__header-h1 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 65px;
+  font-size: 60px;
+}
+
+.app__header-h1 img {
+  width: 3rem;
+}
+
+.app__header-img img {
+  width: 80%;
+}
+
+.custom__button:hover {
+  background-color: var(--color-golden);
+  color: white;
+}
+
+/* Media Quries */
+@media screen and (min-width: 2000px) {
+  .app__header-h1 {
+    font-size: 100px;
+    line-height: 120px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app__header-h1 {
+    font-size: 70px;
+    line-height: 5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__header-h1 {
+    font-size: 70px;
+    line-height: 87px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__header-h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+}
